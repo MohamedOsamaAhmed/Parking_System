@@ -25,7 +25,7 @@ The system should always display 'ncars' on the PC screen every 5 seconds. This 
 
 >•	**Registers.h:** contains all needed registers of Atmega328p microcontroller.
 
->•	**STD_TYPES.h:** contains standard types to overcome compiler dependency for example int size may     change 2 bytes or 4 bytes so if there is a change in the expected size, we only change one time in STD_TYPES.h file.
+>•	**STD_TYPES.h:** contains standard types to overcome compiler dependency for example int size may     change 2 bytes or 4 bytes so if there is a change in the expected size,       we only change one time in STD_TYPES.h file.
 
 >•	**BIT_MATH.h:** contains Macros for setting and clearing any pin in the micro.
 
@@ -48,9 +48,9 @@ The system should always display 'ncars' on the PC screen every 5 seconds. This 
 
 ## Conclusion
 #### The main purpose of this project not to show how we can solve hard business logic but learn that:
-    •	There are many ways to write the same code every one has advantages and disadvantages and you choose depending on your requirements.
-    •	Flowcharts simplify the implementation.
-    •	Simulation doesn’t always work right so try many versions or the best way use hardware components. 
-    •	 Interrupts is the last solution you should use as it is not a good thing.
+   > •	**There are many ways to write the same code every one has advantages and disadvantages and you choose depending on your requirements.**
+   > •	**Flowcharts simplify the implementation.**
+   > •	**Simulation doesn’t always work right so try many versions or the best way use hardware components.** 
+   > •	**Interrupts is the last solution you should use as it is not a good thing.**
 
 
