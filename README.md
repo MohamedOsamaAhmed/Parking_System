@@ -23,8 +23,8 @@ The system should always display 'ncars' on the PC screen every 5 seconds. This 
 ![alt text](https://github.com/MohamedOsamaAhmed/Parking_System/blob/main/ProteusDesign.PNG?raw=true)
 ## Header Files
 >•	**Registers.h:** contains all needed registers of Atmega328p microcontroller.
-•	**STD_TYPES.h:** contains standard types to overcome compiler dependency for example int size may     change 2 bytes or 4 bytes so if there is a change in the expected size, we only change one        time in STD_TYPES.h file.
-•	**BIT_MATH.h:** contains Macros for setting and clearing any pin in the micro.
+>•	**STD_TYPES.h:** contains standard types to overcome compiler dependency for example int size may     change 2 bytes or 4 bytes so if there is a change in the expected size, we only change one        time in STD_TYPES.h file.
+>•	**BIT_MATH.h:** contains Macros for setting and clearing any pin in the micro.
 
 ## Using Different Styles in The Code
 1.	In function ` ExternalInerrupt_Init() ` I set the register one time but in function ` DIO_Init() ` I write on register bit by bit which is **better?**
