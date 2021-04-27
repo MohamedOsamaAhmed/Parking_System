@@ -49,8 +49,11 @@ The system should always display 'ncars' on the PC screen every 5 seconds. This 
 ## Conclusion
 #### The main purpose of this project not to show how we can solve hard business logic but learn that:
    > •	**There are many ways to write the same code every one has advantages and disadvantages and you choose depending on your requirements.**
+   
    > •	**Flowcharts simplify the implementation.**
+   
    > •	**Simulation doesn’t always work right so try many versions or the best way use hardware components.** 
+   
    > •	**Interrupts is the last solution you should use as it is not a good thing.**
 
 
