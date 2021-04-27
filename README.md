@@ -3,12 +3,17 @@
 This is an embedded c project using Atmega328p micro controller and 8MHz internal RC oscillator. It is a parking area management; the main function is counting cars number in the parking area and prevent entering more than 10 cars.
 
 ## Hardware Components
->•	Atmega328p Micro Controller runs on 8MHz internal RC
-•	UART
-•	2- Push buttons
-•	3-Led 
-•	3-Resistor 330 Ohm
-•	2-Resistor 1000 Ohm
+>   Atmega328p Micro Controller runs on 8MHz internal RC
+
+>   UART
+
+>	2- Push buttons
+
+>	3-Led 
+
+>	3-Resistor 330 Ohm
+
+>	2-Resistor 1000 Ohm
 
 ## Main Function
 (ISIS-F Hardware) A car park has two gates, one for entering cars and the other for leaving cars. When a car enters the parking area, a pressure sensor activates a switch that is connected to pin INTO which generates external interrupt to open the entry gate (LED at pin PC2) for the car to enter. When a car exits the parking area, a pressure sensor activates a switch that is connected to pin INT1 which generates external interrupt to open the exit gate (LED at pin PC4) for the car to leave. 
