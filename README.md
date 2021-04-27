@@ -25,7 +25,7 @@ The system should always display 'ncars' on the PC screen every 5 seconds. This 
 
 >•	**Registers.h:** contains all needed registers of Atmega328p microcontroller.
 
->•	**STD_TYPES.h:** contains standard types to overcome compiler dependency for example int size may     change 2 bytes or 4 bytes so if there is a change in the expected size,       we only change one time in STD_TYPES.h file.
+>•	**STD_TYPES.h:** contains standard types to overcome compiler dependency for example int size may     change 2 bytes or 4 bytes so if there is a change in the expected size,                       we only change one time in STD_TYPES.h file.
 
 >•	**BIT_MATH.h:** contains Macros for setting and clearing any pin in the micro.
 
@@ -34,10 +34,10 @@ The system should always display 'ncars' on the PC screen every 5 seconds. This 
 
     Writing on the  Register one time is faster but need to write all bits in the register
     Or 
-    you should use bitwise or like this code ` EIMSK =| 0x3 `to set only the first two bits for example and let the rest as they are but this take more time to be executed than the first.
+    you should use bitwise or like this code ` EIMSK =| 0x3 `to set only the first two bits for example and let the rest as they are but this take more time to be executed than     the first.
     write on register bit by bit is more readable you can know that every line only select one choice but it is the slowest way.
 
-2.	Using ` _delay_ms() ` function make CPU counting and don’t make any thing else so it is preferred to use timer peripheral to do this job like I did when sending cars number every 5 seconds but it also increase latency of the system. 
+2.	Using ` _delay_ms() ` function make CPU counting and don’t make any thing else so it is preferred to use timer peripheral to do this job like I did when sending cars number     every 5 seconds but it also increase latency of the system. 
 
 ## Problems
   > • 	**UART Module doesn’t work on Proteus 8 only work on version 7.** 
